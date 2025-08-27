@@ -22,25 +22,25 @@ export const SIDEBAR_MENU_ITEMS = [
     hasSubMenu: true,
     subMenuItems: [
       {
-        href: "",
+        href: "/boards/create-routes",
         key: "create-routes",
         label: "Create routes",
         icon: ChevronRight,
       },
       {
-        href: "",
+        href: "/boards/development-react-app",
         key: "development-react-app",
         label: "Development React App",
         icon: ChevronRight,
       },
       {
-        href: "",
+        href: "/boards/sport-xi-project",
         key: "sport-xi-project",
         label: "Sport Xi Project",
         icon: ChevronRight,
       },
       {
-        href: "",
+        href: "/boards/wordpress-theme",
         key: "wordpress-theme",
         label: "Wordpress theme",
         icon: ChevronRight,
@@ -48,20 +48,20 @@ export const SIDEBAR_MENU_ITEMS = [
     ],
   },
   {
-    href: "",
+    href: "/messages",
     key: "messages",
     label: "Messages",
     icon: MessageCircleMore,
     badge: "3",
   },
   {
-    href: "",
+    href: "/calendar",
     key: "calendar",
     label: "Calendar",
     icon: CalendarRange,
   },
   {
-    href: "",
+    href: "/team-members",
     key: "team-members",
     label: "Team members",
     icon: UserRound,
