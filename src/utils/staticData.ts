@@ -9,7 +9,7 @@ import {
 
 export const SIDEBAR_MENU_ITEMS = [
   {
-    href: "",
+    href: "/",
     key: "dashboard",
     label: "Dashboard",
     icon: LayoutGrid,
