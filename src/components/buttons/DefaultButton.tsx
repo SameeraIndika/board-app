@@ -44,7 +44,7 @@ export const DefaultButton = ({
       {...props}
       type={type}
       className={`      
-      flex items-center justify-center gap-x-3 rounded-md transition-all duration-200 ease-linear font-semibold text-xs capitalize whitespace-nowrap
+      flex items-center gap-x-3 rounded-md transition-all duration-200 ease-linear font-semibold text-xs capitalize whitespace-nowrap
       ${isLink ? "" : "h-12 py-1 px-4"}
       ${getColorVariant(colorvariant)} ${buttonWidthClass}`}
       onClick={onClick}
